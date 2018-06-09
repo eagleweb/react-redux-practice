@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import { BrowserRouter, Route } from 'react-router-dom'
-import Main from './Main';
-import About from './About';
+import Main from './Main'
+import About from './About'
+import AppMap from './map/AppMap'
 
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
@@ -17,6 +18,7 @@ export default class App extends Component {
                     <div>
                         <Route exact path='/' component={Main} />
                         <Route path='/about' component={About} />
+                        <Route path='/app' component={AppMap} />
                     </div>
                 </BrowserRouter>
             </Provider>

@@ -1,0 +1,11 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.map {
+    height: 600px;
+    width: 100%;
+}

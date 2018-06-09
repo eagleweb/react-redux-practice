@@ -14,6 +14,7 @@ class Main extends Component {
                 <User user={this.props.user}/>
                 <Year year={this.props.year} setYear={this.props.setYearAction}/>
                 <Link to="/about">Home</Link>
+                <Link to="/app">Map</Link>
             </div>
         );
     }
